@@ -5,8 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Notes</title>
+  <script src="script.js" defer></script>
+  <script src="moment.min.js" defer></script>
 </head>
 <body>
+<h1>Notes App</h1>
+  
+<form id="form"> 
+<input type="noteText" id="newNote" name="newNoteTitle" placeholder="Title">
+<div class="Note-Input">
+<input type="noteText" id="newNote" name="newNote" placeholder="New Note">
+<button type="submit">Submit</button>
+</div>
+
+<h2>Note List</h2>
+<input type="oldNoteTitle" id="oldNote" name="oldNote">
+<div class="Submitted-Notes">
+<input type="oldNoteText" id="oldNote" name="oldNote">
+<label for="oldNote"></label>
+<button type="Edit">Edit</button>
+<button type="Delete">Delete</button>
+</div>
+
+</form>
   
 </body>
 </html>
